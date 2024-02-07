@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_tools"
+    android:padding="15dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <View
+        android:layout_width="52dp"
+        android:layout_height="4dp"
+        android:background="#CACACA"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="85dp"
+        android:src="@drawable/logo_bri"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hai, sahabat gen's silahkan lakukan transfer untuk nambah saldo mu sebesar :"
+        android:fontFamily="@font/poppins"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nominal"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="@font/poppins"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ke Rekening"
+        android:fontFamily="@font/poppins"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Bank : xxxxxxxxxxxxx" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor : 035501002483306"
+        android:drawableEnd="@drawable/copy"
+        android:id="@+id/norek"
+        android:fontFamily="@font/poppins"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/poppins"
+        android:text="An. : xxxxx" />
+    <com.droidbond.loadingbutton.LoadingButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="Konfirmasi TopUp"
+        app:background="@drawable/button_primary"
+        app:successBackground="@color/green"
+        app:successIcon="@drawable/ic_done_white_24dp"
+        app:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        app:progressColor="@color/white"
+        app:progressBarSize="small"
+        android:fontFamily="@font/poppins"
+        android:id="@+id/daftar"
+        />
+</LinearLayout>

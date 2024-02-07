@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/white"
+    tools:context=".fragment.AuthFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:text="Selamat Datang"
+        android:textSize="16sp"
+        android:textColor="@color/Primary"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Pada Aplikasi Perhitungan Cepat berbasis mobile yang terintegrasi dengan DisdukCapil Nasional"
+        android:layout_marginBottom="35dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No. Handphone"
+        android:inputType="phone"
+        android:id="@+id/phone"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/form_control"
+        android:layout_marginBottom="15dp"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:textSize="14sp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@color/Primary"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PIN"
+        android:inputType="numberPassword"
+        android:id="@+id/pin"
+        android:fontFamily="@font/poppins"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/form_control"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="10dp"
+        android:textSize="14sp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="@color/Primary"
+        android:autofillHints="" />
+    <com.droidbond.loadingbutton.LoadingButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="Masuk"
+        app:background="@drawable/button_primary"
+        app:successBackground="@color/green"
+        android:fontFamily="@font/poppins"
+        app:successIcon="@drawable/ic_done_white_24dp"
+        app:textColor="@color/white"
+        app:progressColor="@color/white"
+        app:progressBarSize="small"
+        android:id="@+id/login"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins"
+            android:text="Anda belum punya akun ?"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:textColor="@color/Primary"
+            android:text="Daftar"
+            android:fontFamily="@font/poppins"
+            android:id="@+id/daftar"
+            />
+    </LinearLayout>
+</LinearLayout>

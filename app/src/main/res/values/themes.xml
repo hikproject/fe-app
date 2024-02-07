@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GensMasterApps" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="dropDownBackgroundTint">@android:color/white</item>
+        <item name="bottomNavigationStyle">@style/CustomBottomNavigationView</item>
+    </style>
+
+    <style name="Theme.GensMasterApps" parent="Base.Theme.GensMasterApps" />
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomBottomNavigationView" parent="Widget.Design.BottomNavigationView">
+        <item name="itemBackground">@android:color/transparent</item> <!-- Set background color to transparent for the selected item -->
+        <item name="itemIconTint">@drawable/bottom_nav_icon_color</item> <!-- Use a drawable for the unselected item icon color -->
+        <item name="android:background">?attr/colorPrimary</item> <!-- Use primary color for unselected items -->
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="MarqueeTextStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo_gens"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/logo_gens"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GensMasterApps"
+        tools:targetApi="31">
+        <activity
+            android:name=".pemilu.DprDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pemilu.DprProvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pemilu.DprRIActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pemilu.PresidenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PemiluActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.InvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TransaksiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.KonfirmasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DetailProdukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TransferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MitraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.TopUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.QrCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.LainnyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.TagihanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.TvActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.BpjsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.MoneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.DataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.PlnActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pembayaran.PulsaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AuthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

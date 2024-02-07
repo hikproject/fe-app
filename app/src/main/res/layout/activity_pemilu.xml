@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PemiluActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/bg_top"
+        android:id="@id/top"
+        />
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="8dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/Primary"
+            android:text="Quick Count Presiden"
+            android:onClick="Pesiden"
+            android:background="@drawable/form_control"
+            android:drawableEnd="@drawable/next"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="8dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/Primary"
+            android:text="Quick Count DPR RI"
+            android:onClick="DPRRI"
+            android:background="@drawable/form_control"
+            android:drawableEnd="@drawable/next"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="8dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/Primary"
+            android:text="Quick Count DPR PROV"
+            android:onClick="DPRPROV"
+            android:background="@drawable/form_control"
+            android:drawableEnd="@drawable/next"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="8dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/Primary"
+            android:text="Quick Count DPRD"
+            android:onClick="DPRPD"
+            android:background="@drawable/form_control"
+            android:drawableEnd="@drawable/next"
+            android:layout_marginBottom="15dp"
+            />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.BpjsKesehatanFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. Pelanggan"
+            android:inputType="phone"
+            android:id="@+id/phone"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/form_control"
+            android:layout_marginBottom="15dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="14sp"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textColor="@color/Primary"
+            />
+        <com.droidbond.loadingbutton.LoadingButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:text="Cek Tagihan"
+            app:background="@drawable/button_primary"
+            app:successBackground="@color/green"
+            android:fontFamily="@font/poppins"
+            app:successIcon="@drawable/ic_done_white_24dp"
+            app:textColor="@color/white"
+            app:progressColor="@color/white"
+            app:progressBarSize="small"
+            android:id="@+id/beli"
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/listProduk"
+            />
+    </LinearLayout>
+</LinearLayout>

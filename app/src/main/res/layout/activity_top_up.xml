@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.TopUpActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/bg_top"
+        android:id="@+id/top"
+        />
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/top"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nominal TopUp"
+            android:inputType="number"
+            android:id="@+id/amount"
+            android:background="@drawable/form_control"
+            android:layout_marginBottom="15dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textColor="@color/Primary"
+            />
+        <com.droidbond.loadingbutton.LoadingButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:text="Pilih Jenis Pembayaran"
+            app:background="@drawable/button_primary"
+            app:successBackground="@color/green"
+            android:fontFamily="@font/poppins"
+            app:successIcon="@drawable/ic_done_white_24dp"
+            app:textColor="@color/white"
+            app:progressColor="@color/white"
+            app:progressBarSize="small"
+            android:id="@+id/payment"
+            />
+    </LinearLayout>
+</RelativeLayout>

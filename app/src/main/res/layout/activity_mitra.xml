@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.MitraActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/bg_top"
+        android:id="@id/top"
+        />
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        app:titleTextColor="@color/white"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:id="@+id/listMitra"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_above="@id/add_mitra"
+        />
+    <com.droidbond.loadingbutton.LoadingButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text="Daftarkan Mitra"
+        android:layout_alignParentBottom="true"
+        app:background="@drawable/button_primary"
+        android:layout_margin="20dp"
+        app:successBackground="@color/green"
+        android:fontFamily="@font/poppins"
+        app:successIcon="@drawable/ic_done_white_24dp"
+        app:textColor="@color/white"
+        app:progressColor="@color/white"
+        app:progressBarSize="small"
+        android:id="@+id/add_mitra"
+        />
+</RelativeLayout>

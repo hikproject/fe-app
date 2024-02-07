@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="75dp"
+    android:height="56dp"
+    android:viewportWidth="75"
+    android:viewportHeight="56">
+    <path
+        android:pathData="M46.5 27.25c-1.18 1.19-2.58 2.13-4.13 2.77-1.54 0.65-3.2 0.98-4.87 0.98s-3.33-0.33-4.87-0.98c-1.55-0.64-2.95-1.58-4.13-2.77 0-0.82 0.16-1.64 0.47-2.4 0.32-0.75 0.77-1.44 1.35-2.02 0.58-0.58 1.26-1.04 2.02-1.35C33.09 21.16 33.9 21 34.7 21h5.58c0.81 0 1.62 0.16 2.37 0.48 0.76 0.3 1.44 0.77 2.02 1.35 0.58 0.58 1.03 1.27 1.35 2.03 0.3 0.75 0.47 1.57 0.47 2.39Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="31.5"
+                android:startY="23.78"
+                android:endX="37.03"
+                android:endY="33.93">
+                <item
+                    android:color="#3498DB"
+                    android:offset="0"/>
+                <item
+                    android:color="#3498DB"
+                    android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M37.5 19c3.31 0 6-2.69 6-6s-2.69-6-6-6-6 2.69-6 6 2.69 6 6 6Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="33.5"
+                android:startY="10.33"
+                android:endX="41.4"
+                android:endY="18.4">
+                <item
+                    android:color="#3498DB"
+                    android:offset="0"/>
+                <item
+                    android:color="#3498DB"
+                    android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#3498DB"
+        android:pathData="M28.97 43.76h-2.62L25.93 45h-1.79l2.54-7.02h1.98L31.2 45h-1.8l-0.43-1.24Zm-0.44-1.32l-0.87-2.57-0.86 2.57h1.73ZM35.4 45l-1.7-2.34V45h-1.71v-7.4h1.7v4.09l1.7-2.27h2.1l-2.31 2.8L37.5 45h-2.12Zm8.28-5.58V45h-1.71v-0.76c-0.17 0.25-0.41 0.45-0.71 0.6-0.3 0.15-0.62 0.22-0.98 0.22-0.43 0-0.8-0.1-1.13-0.28-0.33-0.2-0.58-0.47-0.76-0.83-0.18-0.36-0.27-0.78-0.27-1.27v-3.26h1.7v3.03c0 0.37 0.1 0.66 0.29 0.87 0.2 0.2 0.45 0.31 0.78 0.31s0.6-0.1 0.79-0.31c0.2-0.2 0.29-0.5 0.29-0.87v-3.03h1.7Zm4.63-0.06c0.65 0 1.17 0.21 1.56 0.64 0.4 0.42 0.59 1 0.59 1.74V45h-1.7v-3.03c0-0.37-0.1-0.66-0.3-0.87-0.19-0.2-0.45-0.31-0.77-0.31-0.33 0-0.59 0.1-0.78 0.31-0.2 0.2-0.3 0.5-0.3 0.87V45h-1.7v-5.58h1.7v0.74c0.18-0.25 0.41-0.44 0.7-0.58 0.3-0.15 0.63-0.22 1-0.22Z"/>
+</vector>
