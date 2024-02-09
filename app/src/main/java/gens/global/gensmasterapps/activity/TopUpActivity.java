@@ -136,7 +136,7 @@ public class TopUpActivity extends AppCompatActivity {
         TextView nominals = view.findViewById(R.id.nominal);
         TextView norek = view.findViewById(R.id.norek);
         norek.setOnClickListener(V->{
-            String nomorRekening = "035501002483306";
+            String nomorRekening = "xxxxxxx";
             ClipboardManager clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
             ClipData clipData = ClipData.newPlainText("Nomor Rekening", nomorRekening);
             if (clipboardManager != null) {

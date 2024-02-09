@@ -50,14 +50,14 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
         android:text="Bank : xxxxxxxxxxxxx" />
+
     <TextView
+        android:id="@+id/norek"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nomor : 035501002483306"
         android:drawableEnd="@drawable/copy"
-        android:id="@+id/norek"
         android:fontFamily="@font/poppins"
-        />
+        android:text="Nomor : xxxxxxxx" />
 
     <TextView
         android:layout_width="match_parent"
